@@ -3,6 +3,5 @@
   } 
 .top-wrapper {
   text-align: right;
-  background-image: url(Gambar/Main Background.jpg);
-  background-position: left;
+  background-attachment: fixed;
 }
