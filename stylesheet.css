@@ -7,3 +7,9 @@
   background-repeat: no-repeat;
   background-position: left top;
 }
+.top-wrapper h1 {
+  font-size: medium;
+}
+.top-wrapper h2 {
+  font-size: large;
+}
