@@ -1,9 +1,44 @@
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {
+@media (max-width: 1000px) {
+    /*#region extra1 (Beni)*/
+    .extra1-wrapper{
+        padding: 10px;
+    }
+    .flex-pelajaran{
+        flex-wrap: wrap;
+    }
+    .box-pelajaran{
+        width: 45%;
+    }
+    .box-pelajaran .fa{
+        font-size: 80px;
+    }
+    .box-pelajaran p{
+        height: 80px;
+    }
+    /*#endregion */
 
 }
 
 /* Untuk Smartphone */
-@media all and (max-width: 670px) {
-
+@media (max-width: 670px) {
+    /*#region extra1 (Beni)*/
+    .extra1-wrapper{
+        padding: 2px;
+    }
+    .flex-pelajaran{
+        flex-direction:column;
+    }
+    .box-pelajaran{
+        width: auto;
+    }
+    .box-pelajaran .fa{
+        font-size: 40px;
+    }
+    .box-pelajaran p{
+        height: 60px;
+    }
+    /*#endregion */
+    
 }
+
