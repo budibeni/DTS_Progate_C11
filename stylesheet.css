@@ -8,3 +8,58 @@
   background-repeat: no-repeat;
   background-position: left top;
 }
+
+/*#region extra1 (Beni)*/
+.extra1-wrapper{
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.extra1-wrapper .heading{
+  padding: 10px;
+  color: gray;
+  letter-spacing: 5px;
+}
+.flex-pelajaran{
+  padding: 10px 20px;
+  display: flex;
+  flex: auto;
+  padding-bottom: 50px;
+}
+.box-pelajaran{
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 0 3px silver;
+  padding: 30px;
+  margin: 15px;
+  width: 25%;
+}
+.box-pelajaran p{
+  height: 100px;
+  font-style: italic;
+}
+.box-pelajaran .box-btn{
+  border-top: 2px solid gainsboro;
+}
+.box-pelajaran .fa{
+  font-size: 120px;
+}
+
+.box-pelajaran .btn {
+  margin-top: 40px;
+  padding: 12px 24px;
+  background-color: red;
+  color: white;
+  font-style: initial;
+  text-decoration: none;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.box-pelajaran .btn:hover {
+  opacity: 0.5;
+}
+/*#endregion */
