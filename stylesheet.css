@@ -17,6 +17,11 @@
 .logo {
   margin-top: 30px;
   width: 100px;
+  -webkit-animation: rotation 8s infinite linear;
+}
+@-webkit-keyframes rotation {
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(359deg);}
 }
 .header-text {
   max-width: 350px;
