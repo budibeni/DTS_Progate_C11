@@ -1,5 +1,9 @@
 /* Untuk Tablet */
 @media (max-width: 1000px) {
+    .container {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
     /*#region extra1 (Beni)*/
     .extra1-wrapper{
         padding: 10px;
@@ -16,6 +20,22 @@
     }
     .box-pelajaran p{
         height: 80px;
+    }
+    /*#endregion */
+
+    /*#region extra2 (Diinggo)*/
+    .profile-body {
+        flex-wrap: wrap;
+    }
+    .profile-box {
+        width: 50%;
+    }
+    .profile-box-text h5 {
+        font-size: 18px;
+    }
+    .profile-box-text h6 {
+        font-size: 14px;
+        color: #eeeeee;
     }
     /*#endregion */
 
@@ -40,5 +60,15 @@
         height: 60px;
     }
     /*#endregion */
-    
+
+    /*#region extra2 (Diinggo)*/
+    .profile-box {
+        width: 100%;
+        margin: 15px;
+    }
+    .profile-head {
+        margin-right:30px;
+        margin-left:30px;
+    }
+    /*#endregion */
 }
