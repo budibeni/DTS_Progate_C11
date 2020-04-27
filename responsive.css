@@ -30,6 +30,9 @@
     /*#endregion */
 
     /*#region top-wrapper (Dian)*/
+    #header {
+        background-image: none;
+    }
 
     /*#region extra2 (Diinggo)*/
     .profile-body {
@@ -95,4 +98,6 @@
     #header {
         background-image: none;
     }
+
+    /*#endregion */
 }
