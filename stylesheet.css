@@ -5,7 +5,7 @@
 }
 
 /*#region header (bondan)*/
-header {
+.header {
   height: 65px;
   width: 100%;
   background-color: rgba(7, 23, 253, 0.9);
