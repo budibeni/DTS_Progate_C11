@@ -6,12 +6,13 @@
     }
     .flex-pelajaran{
         flex-wrap: wrap;
+        padding: 10px 20px;
     }
     .box-pelajaran{
         width: 45%;
     }
     .box-pelajaran .fa{
-        font-size: 80px;
+        font-size: 50px;
     }
     .box-pelajaran p{
         height: 80px;
@@ -33,7 +34,7 @@
         width: auto;
     }
     .box-pelajaran .fa{
-        font-size: 40px;
+        font-size: 35px;
     }
     .box-pelajaran p{
         height: 60px;
@@ -41,4 +42,3 @@
     /*#endregion */
     
 }
-
