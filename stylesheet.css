@@ -1,37 +1,48 @@
 * {
-    box-sizing: border-box;
-    margin:0px;
-    font-family: sans-serif;
-  }
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: sans-serif;
+}
 
-  /*#region top-wrapper (Dian)*/
-.top-wrapper {
+/*#region top-wrapper (Dian)*/
+#top-wrapper {
   height: 100vh;
   background-image: url(Gambar/2787860.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
 }
+
 .container {
   margin-right: 100px;
   margin-left: 100px;
 }
+
 .c11logo {
   margin-top: 30px;
   width: 100px;
   -webkit-animation: rotation 8s infinite linear;
 }
+
 @-webkit-keyframes rotation {
-  from {-webkit-transform: rotate(0deg);}
-  to {-webkit-transform: rotate(359deg);}
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
 }
+
 .header-text {
   max-width: 350px;
   margin-top: 140px;
 }
+
 .h1 {
   font-size: 34px;
 }
+
 .square {
   height: 12px;
   width: 12px;
@@ -39,6 +50,7 @@
   background: red;
   margin: 15px 0;
 }
+
 .common-btn {
   padding: 18px 40px;
   background: transparent;
@@ -47,54 +59,63 @@
   font-weight: bold;
   cursor: pointer;
 }
+
 p {
   font-size: 15px;
   line-height: 18px;
   color: #777;
 }
+
 .header-text button {
   margin-top: 20px;
   margin-bottom: 60px;
 }
+
 /*#endregion */
 
 /*#region extra1 (Beni)*/
-.extra1-wrapper{
+.extra1-wrapper {
   background-color: #f1f1f1;
   color: black;
   text-align: center;
   padding-bottom: 100px;
   padding-top: 100px;
 }
-.extra1-wrapper .heading{
+
+.extra1-wrapper .heading {
   padding: 10px;
-  color:black;
+  color: black;
   font-style: normal;
   letter-spacing: 5px;
 }
-.flex-pelajaran{
+
+.flex-pelajaran {
   padding: 10px 80px;
   display: flex;
   flex: auto;
   padding-bottom: 50px;
 }
-.box-pelajaran{
+
+.box-pelajaran {
   border-radius: 15px;
   background-color: white;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
   padding: 30px;
   margin: 15px;
   width: 25%;
 }
-.box-pelajaran p{
+
+.box-pelajaran p {
   padding-top: 15px;
   min-height: 150px;
   font-style: italic;
 }
-.box-pelajaran .box-btn{
+
+.box-pelajaran .box-btn {
   border-top: 2px solid gainsboro;
 }
-.box-pelajaran .fa{
+
+.box-pelajaran .fa {
   font-size: 80px;
 }
 
@@ -102,7 +123,7 @@ p {
   margin-top: 40px;
   padding: 12px 24px;
   background-color: #fd456d;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   color: white;
   font-style: initial;
   text-decoration: none;
@@ -115,6 +136,7 @@ p {
 .box-pelajaran .btn:hover {
   opacity: 0.5;
 }
+
 /*#endregion */
 
 /*#region extra2 (Diinggo)*/
@@ -122,47 +144,58 @@ p {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .profile-head {
   margin-bottom: 20px;
 }
+
 .profile-head h1 {
   margin-bottom: 20px;
 }
+
 .profile-head p {
   line-height: 1.5;
 }
+
 .profile-h1-divide {
   width: 100px;
-  border-bottom:3px solid #fd456d;
+  border-bottom: 3px solid #fd456d;
   margin-bottom: 20px;
 }
+
 .profile-body {
   display: flex;
   margin-right: -15px;
-  margin-left:-15px;
+  margin-left: -15px;
 }
+
 .profile-box {
   width: 20%;
   padding: 15px;
   /* border: 1px solid #eeeeee; */
 }
+
 .profile-box-image img {
   width: 100%;
   margin-bottom: 5px;
   border-radius: 5px;
 }
+
 .profile-box-text {
   background-color: #fd456d;
   border-radius: 2px;
-  padding:10px 20px;
-  color:#fff;
+  padding: 10px 20px;
+  color: #fff;
 }
+
 .profile-box-text h5 {
   margin-bottom: 5px;
   font-size: 14px;
 }
+
 .profile-box-text p {
   font-size: 12px;
   color: #eeeeee;
 }
+
 /*#endregion */
